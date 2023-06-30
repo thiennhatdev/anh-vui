@@ -49,6 +49,16 @@
       "relation": "oneToMany",
       "target": "api::like.like",
       "mappedBy": "imageId"
+    },
+    "link": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
