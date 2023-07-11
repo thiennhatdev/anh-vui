@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-11T13:38:09.873Z"
+    "x-generation-date": "2023-07-11T14:31:41.165Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1926,6 +1926,23 @@
                           }
                         }
                       },
+                      "admin_user": {
+                        "type": "object",
+                        "properties": {
+                          "data": {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "number"
+                              },
+                              "attributes": {
+                                "type": "object",
+                                "properties": {}
+                              }
+                            }
+                          }
+                        }
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -2209,6 +2226,17 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "admin_user": {
+                "oneOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "string"
+                  }
+                ],
+                "example": "string or id"
               }
             }
           }
@@ -3391,6 +3419,23 @@
                                                     }
                                                   }
                                                 },
+                                                "admin_user": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "data": {
+                                                      "type": "object",
+                                                      "properties": {
+                                                        "id": {
+                                                          "type": "number"
+                                                        },
+                                                        "attributes": {
+                                                          "type": "object",
+                                                          "properties": {}
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
                                                 "createdAt": {
                                                   "type": "string",
                                                   "format": "date-time"
@@ -3846,6 +3891,23 @@
                         }
                       }
                     }
+                  }
+                }
+              }
+            }
+          },
+          "admin_user": {
+            "type": "object",
+            "properties": {
+              "data": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "number"
+                  },
+                  "attributes": {
+                    "type": "object",
+                    "properties": {}
                   }
                 }
               }
@@ -5333,6 +5395,23 @@
                                     }
                                   }
                                 }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "admin_user": {
+                        "type": "object",
+                        "properties": {
+                          "data": {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "number"
+                              },
+                              "attributes": {
+                                "type": "object",
+                                "properties": {}
                               }
                             }
                           }
