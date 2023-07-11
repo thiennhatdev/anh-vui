@@ -38,6 +38,12 @@
       "relation": "oneToMany",
       "target": "api::comment.comment",
       "mappedBy": "commentId"
+    },
+    "likes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::like.like",
+      "mappedBy": "commentId"
     }
   }
 }
