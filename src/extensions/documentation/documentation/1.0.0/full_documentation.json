@@ -25,8 +25,8 @@
   },
   "servers": [
     {
-      "url": "http://localhost:1338/api",
-      "description": "Development server"
+      "url": "https://anh-vui-19cced47a3dd.herokuapp.com/api",
+      "description": "Production server"
     }
   ],
   "externalDocs": {
