@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-11T23:28:13.699Z"
+    "x-generation-date": "2023-07-14T01:56:15.238Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -26,7 +26,7 @@
   "servers": [
     {
       "url": "https://anh-vui-19cced47a3dd.herokuapp.com/api",
-      "description": "Production server"
+      "description": "Development server"
     }
   ],
   "externalDocs": {
