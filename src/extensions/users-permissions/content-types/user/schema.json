@@ -93,6 +93,9 @@
       "relation": "oneToMany",
       "target": "api::image.image",
       "mappedBy": "userId"
+    },
+    "photo": {
+      "type": "string"
     }
   }
 }

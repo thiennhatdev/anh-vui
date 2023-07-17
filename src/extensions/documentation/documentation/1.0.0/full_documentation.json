@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-14T01:56:15.238Z"
+    "x-generation-date": "2023-07-17T07:07:55.136Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -25,7 +25,7 @@
   },
   "servers": [
     {
-      "url": "https://anh-vui-19cced47a3dd.herokuapp.com/api",
+      "url": "http://localhost:1338/api",
       "description": "Development server"
     }
   ],
@@ -1464,6 +1464,9 @@
                                         }
                                       }
                                     }
+                                  },
+                                  "photo": {
+                                    "type": "string"
                                   },
                                   "createdAt": {
                                     "type": "string",
@@ -3621,6 +3624,9 @@
                           }
                         }
                       },
+                      "photo": {
+                        "type": "string"
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -4876,6 +4882,9 @@
                                         }
                                       }
                                     }
+                                  },
+                                  "photo": {
+                                    "type": "string"
                                   },
                                   "createdAt": {
                                     "type": "string",
