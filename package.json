@@ -17,6 +17,7 @@
     "@strapi/strapi": "4.11.2",
     "cloudinary": "^1.37.3",
     "mysql": "2.18.1",
+    "socket.io": "^4.7.1",
     "strapi-plugin-io": "^1.1.4"
   },
   "author": {

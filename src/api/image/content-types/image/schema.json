@@ -60,6 +60,12 @@
         "videos",
         "audios"
       ]
+    },
+    "notifications": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::notification.notification",
+      "mappedBy": "imageId"
     }
   }
 }

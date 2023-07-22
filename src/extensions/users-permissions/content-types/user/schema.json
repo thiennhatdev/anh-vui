@@ -96,6 +96,12 @@
     },
     "photo": {
       "type": "string"
+    },
+    "notifications": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::notification.notification",
+      "mappedBy": "toUserId"
     }
   }
 }
