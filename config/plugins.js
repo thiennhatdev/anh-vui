@@ -41,7 +41,7 @@ module.exports = ({ env }) => {
             "handler": async ({ strapi }, socket) => {
               let data = socket;
               delete data.token;
-              let userReceiveNoti = arr2.find(item => item.userId == data.fromUserId); // thay bằng toUserId
+              let userReceiveNoti = arr2.find(item => item.userId == data.toUserId); // thay bằng toUserId
               let res = await strapi.entityService.create('api::notification.notification', {
                 data,
                 populate: {
