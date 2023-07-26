@@ -6,4 +6,12 @@
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::image.image');
+module.exports = createCoreRouter('api::image.image', {
+    config: {
+        update: {
+          policies: [
+            'api::image.image-policies',
+          ]
+        }
+      }
+});
