@@ -60,9 +60,11 @@ module.exports = ({ env }) => {
                 }
               });
 
-              strapi.$io.raw("receiveNoti", res, {
-                room: userReceiveNoti.socketId
-              });
+              if (userReceiveNoti) {
+                strapi.$io.raw("receiveNoti", res, {
+                  room: userReceiveNoti.socketId
+                });
+              }
             },
           },
           {
